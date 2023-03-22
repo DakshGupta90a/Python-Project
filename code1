@@ -36,3 +36,9 @@ while True:
             caramt += y*20
             tveh += 1
             tamt += y*20
+            
+         elif x == 'c':
+            scooter += 1
+            scooteramt += y*15
+            tveh += 1
+            tamt += y*15
