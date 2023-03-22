@@ -42,3 +42,10 @@ while True:
             scooteramt += y*15
             tveh += 1
             tamt += y*15
+            
+    elif n == 2:
+
+        print("Total Number of buses booked",": ",bus)
+        print("Total Number of cars booked",": ",car)
+        print("Total Number of scooters booked",": ",bus)
+        print("Total Number of vehicles booked",": ",tveh)
