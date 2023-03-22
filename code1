@@ -1,0 +1,38 @@
+print("\t\t------WELCOME TO D&B TAXI STAND------\t\t")
+
+
+bus = 0
+car = 0
+scooter = 0
+busamt = 0
+caramt = 0
+scooteramt = 0
+tamt = 0
+tveh = 0
+Z=print(input("ENTER YOUR NAME : "))
+while True:
+
+    print("PRESS 1 TO SELECT TYPE OF VEHICLE \nPRESS 2 TO SEE ADDED VEHICLES \nPRESS 3 TO SEE PAYMENT DETAILS  \nPRESS 4 TO EXIT")
+
+    n = int(input("Enter your Choice : "))
+
+    if n == 1:
+
+        print("----STANDARD TAXI CHARGES----")
+        print("Press a for Bus := Rs 10/km \ Press b for Car := Rs 20/Km \ Press c for Scooter := Rs 15/Km ")
+
+        x = (input("WHICH TYPE OF VEHICLE YOU WANT? : "))
+
+        y = int(input('How many Km , your location is from here? : '))
+
+        if x == 'a':
+            bus += 1
+            busamt += y*10
+            tveh += 1
+            tamt += y*10
+
+        elif x == 'b':
+            car += 1
+            caramt += y*20
+            tveh += 1
+            tamt += y*20
