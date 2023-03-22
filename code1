@@ -49,3 +49,16 @@ while True:
         print("Total Number of cars booked",": ",car)
         print("Total Number of scooters booked",": ",bus)
         print("Total Number of vehicles booked",": ",tveh)
+        
+     elif n == 3:
+
+        print('Total fare for booked buses',': ','Rs ',busamt)
+        print('Total fare for booked cars',': ','Rs ',caramt)
+        print('Total fare for booked scooters',': ','Rs ',scooteramt)
+        print('Total fare for booked vehicles',': ','Rs ',tamt)
+
+    elif n == 4:
+        print("--------D&B TAXI HIRING SYSTEM-----------")
+        print("---------PLEASE VISIT AGAIN!!!-----------")
+        print('Total fare for booked vehicles',': ','Rs ',tamt)
+        break
